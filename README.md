@@ -37,7 +37,7 @@ You can define some database configuration with environment variables.
 Here they are:
 
 - LOCAL_DDB_HOST: local dynamodb hostname, default is `localhost`
-- LOCAL_DDB_PORT: local dynamodb port, default is `8080`
+- LOCAL_DDB_PORT: local dynamodb port, default is `8000`
 - LOCAL_DDB_ENDPOINT: local dynamodb endpoint if you don't want to use HOST and PORT variables, default is `http://${HOST}:${PORT}\`;
 
 ## References
