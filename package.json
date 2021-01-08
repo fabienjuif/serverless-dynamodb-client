@@ -1,17 +1,17 @@
 {
-    "name": "serverless-dynamodb-client",
-    "version": "0.0.2",
-    "engines": {
-        "node": ">=4.0"
-    },
-    "description": "Serverless dynamodb client plugin",
-    "author": "99xtechnology.com",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/99xt/serverless-dynamodb-client"
-    },
-    "keywords": [
+  "name": "@fabienjuif/serverless-dynamodb-client",
+  "version": "0.0.5",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "description": "Serverless dynamodb client plugin",
+  "author": "99xtechnology.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/99xt/serverless-dynamodb-client"
+  },
+  "keywords": [
     "serverless framework plugin",
     "serverless applications",
     "serverless plugins",
@@ -28,15 +28,19 @@
     "amazon web services",
     "serverless.com"
   ],
-    "main": "index.js",
-    "bin": {},
-    "scripts": {
-        "test": "echo \"Warning: no test specified\" && exit 0"
-    },
-    "devDependencies": {
-      "typescript": "^4.1.3"
-    },
-    "dependencies": {
-      "aws-sdk": "^2.824.0"
-    }
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.824.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
