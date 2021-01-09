@@ -1,6 +1,8 @@
 {
   "name": "@fabienjuif/serverless-dynamodb-client",
-  "version": "0.0.6",
+  "version": "0.0.8",
+  "main": "src/index.js",
+  "types": "src/index.ts",
   "engines": {
     "node": ">=4.0"
   },
@@ -28,12 +30,11 @@
     "amazon web services",
     "serverless.com"
   ],
-  "main": "index.js",
-  "bin": {},
   "scripts": {
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "devDependencies": {
+    "@types/node": "^14.14.20",
     "typescript": "^4.1.3"
   },
   "dependencies": {
